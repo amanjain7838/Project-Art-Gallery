@@ -64,7 +64,6 @@ public class homepage {
 		    l.setBounds(10,175,1320,280);
 			    
 		    
-		    
 		    p.add(b1);
 		    p.add(b2);
 		    p.add(b3);
@@ -82,24 +81,22 @@ public class homepage {
 		    
 		    f.add(p2);
 		    f.add(p);
-		    
+	
+		    f.getContentPane().setBackground(new java.awt.Color(255, 51, 51));	
+			f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+			f.setSize(1368, 768);
+			f.setLayout(null);
+			f.setVisible(true);
+
 	}
 	
 	
 public static void main(String args[])
 {
-	//main logo
+		new homepage();    
+		
+		
+		
 
-	//logo end
-	
-	
-	//homebuttons and other option top home buttons
-	new homepage();    
-
-	f.getContentPane().setBackground(new java.awt.Color(255, 51, 51));	
-	f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-	f.setSize(1368, 768);
-	f.setLayout(null);
-	f.setVisible(true);
-}
+	}
 }
