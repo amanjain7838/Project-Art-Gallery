@@ -133,9 +133,6 @@ public class About  {
 		        	  
 		          }
 		      });
-		      //b4.setBounds(670,100,220,28);
-		      //b4.setBackground(Color.WHITE);
-		          
 		      b5.setBounds(890,100,220,28);
 		      b5.setBackground(Color.WHITE);
 		      b5.addActionListener(new ActionListener() {
