@@ -179,7 +179,7 @@ public class About  {
 		        }
 		    });
 		    
-		    
+		    //item3
 		    
 		    make.add(item3);
 		    item3.setOpaque(true);
