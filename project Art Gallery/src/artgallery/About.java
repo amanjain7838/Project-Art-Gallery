@@ -17,21 +17,15 @@ import javax.swing.WindowConstants;
 
 
 public class About  {
-	
-	
-
-	
-	About() {
+		About() {
 			JLabel l=new JLabel();
 		   JButton close=new JButton();
 		 	JButton min=new JButton();
-
 		 JFrame addcart=new JFrame();
 		 JPanel p = new JPanel();
 		 JButton b1 = new JButton("Home");
 		 JButton b2 = new JButton("Register");
 		 JButton b3 = new JButton("Login");
-		// JButton b4 = new JButton("Home");
 		 JButton b5 = new JButton("About Us");
 		 JButton b6 = new JButton("Contact");
 		 JMenuBar menuBar = new JMenuBar();
@@ -48,7 +42,7 @@ public class About  {
 			ImageIcon icon = new ImageIcon("res/framebackground.jpg");
 		    l.setIcon(icon);
 		 
-		    
+		    //closingbuttons
 		    min.setBounds(1252,6,50,51);
 		    close.setBounds(1316,6,50,51);
 		    
@@ -93,7 +87,7 @@ public class About  {
 		    
 		  
 		      
-		      
+		      //buttonupside
 		    b1.setBounds(10,100,220,28);
 		      b1.setBackground(Color.WHITE);
 		      b1.addActionListener(new ActionListener() {
